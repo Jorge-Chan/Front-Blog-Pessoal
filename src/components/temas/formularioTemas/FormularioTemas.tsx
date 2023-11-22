@@ -120,6 +120,16 @@ function FormularioTema() {
                 className="border-2 border-slate-700 rounded p-2"
                 value={tema.descricao}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
+                
+            />
+            <input
+                type="text"
+                placeholder="Descreva aqui seu tema"
+                name='descricao'
+                className="border-2 border-slate-700 rounded p-2"
+                value={tema.descricao}
+                onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
+                
             />
         </div>
         <button
